@@ -53,7 +53,7 @@ function form_data_menu()
     add_menu_page('Form Data', 'Form Data', 8, __FILE__, 'form_data_list');
 }
 
-// // add_shortcode('form_data_list_shortcode','form_data_list');
+add_shortcode('form_data_list_shortcode','form_data_list');
 function form_data_list()
 {
     include('form_data_list.php');
